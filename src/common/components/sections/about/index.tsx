@@ -1,14 +1,14 @@
 'use client';
 
-import { useSectionInView } from '@/common/lib/hooks';
-import portfolioImg from '@/../public/images/photo.jpg';
-import { smoothScrollTo } from '@/common/lib/utils';
+import portfolioImg from '@/../public/images/moe.jpg';
 import SectionDivider from '@/common/components/shared/section-divider';
 import SectionHeading from '@/common/components/shared/section-heading';
+import { useSectionInView } from '@/common/lib/hooks';
+import { smoothScrollTo } from '@/common/lib/utils';
 import { motion, useScroll, useTransform } from 'framer-motion';
 import Image from 'next/image';
-import { useRef } from 'react';
 import Link from 'next/link';
+import { useRef } from 'react';
 
 export default function About() {
   const { ref } = useSectionInView('about', 0.4);
@@ -63,9 +63,9 @@ export default function About() {
                     onClick={(e) => {
                       smoothScrollTo({ e, id: 'contact' });
                     }}
-                    className="w-52 lg:w-40"
+                    className="w-52 lg:w-48 lg:mt-4"
                   >
-                    <span className="bg-[#ffcbb4] text-2xl font-bold uppercase dark:bg-[#ddbea9] lg:normal-case">
+                    <span className="bg-[#ffcbb4] p-3 rounded-lg text-2xl font-bold uppercase dark:bg-[#ddbea9] lg:normal-case ">
                       Contact me!
                     </span>
                   </Link>
@@ -80,9 +80,10 @@ export default function About() {
                     src={portfolioImg}
                     alt="portfolio image"
                     placeholder="blur"
-                    width={470}
-                    height={470}
-                    className="z-10 rounded-full lg:h-[380px] lg:w-[380px] xl:h-[470px] xl:w-[470px]"
+                    width={400}
+                    height={400}
+                    style={{ objectFit: 'cover' }}
+                    className="z-10 rounded-full lg:h-[480px] lg:w-[480px] xl:h-[470px] xl:w-[470px]"
                   />
                 </div>
               </div>

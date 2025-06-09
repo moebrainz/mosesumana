@@ -1,14 +1,15 @@
 import React from 'react';
 
+import accountingImg from '@/../public/images/accounting.jpg';
+import auditMasterImg from '@/../public/images/audit-master.png';
 import campwithusImg from '@/../public/images/camp-with-us.png';
 import carcatalogImg from '@/../public/images/car-catalog.png';
 import filedriveImg from '@/../public/images/file-drive.png';
+import UtomImg from '@/../public/images/logo.svg';
+import portfolioImg from '@/../public/images/portfolio.png';
 import projectmanagementImg from '@/../public/images/project-management.png';
 import reactfoodImg from '@/../public/images/react-food.png';
 import surgeImg from '@/../public/images/surge.png';
-import portfolioImg from '@/../public/images/portfolio.png';
-import auditMasterImg from '@/../public/images/audit-master.png';
-import accountingImg from '@/../public/images/accounting.jpg';
 import { BookIcon, BriefcaseBusinessIcon } from 'lucide-react';
 
 export const links = [
@@ -81,6 +82,13 @@ export const images = {
 };
 
 export const projectsData = [
+  {
+    title: 'Utom Ai',
+    description: `Utom provides an on-demand AI workforce that helps startups automate busywork, boost efficiency, and scale faster—without increasing headcount or compromising agility.`,
+    tags: ['React', 'TypeScript', 'Next.js', 'Tailwind', 'Zod', 'Gasp'],
+    imageUrl: UtomImg,
+    link: 'https://www.utom.dev/',
+  },
   {
     title: 'Audit Master',
     description: `Audit Master is a platform that streamlines the process of obtaining legal expertise and resources. It automates tasks like GAP Analysis, GAP Reporting, Due Diligence & more.`,
