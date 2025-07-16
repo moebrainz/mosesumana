@@ -1,18 +1,18 @@
+import Footer from '@/common/components/shared/footer';
+import Header from '@/common/components/shared/header';
+import { cn } from '@/common/lib/utils';
+import ActiveSectionContextProvider from '@/common/stores/active-section';
+import '@/common/styles/globals.css';
+import { ModeToggle } from '@/common/theme/mode-toggler';
+import { ThemeProvider } from '@/common/theme/theme-provider';
 import type { Metadata } from 'next';
 import { Montserrat as FontMontserrat } from 'next/font/google';
-import { cn } from '@/common/lib/utils';
-import '@/common/styles/globals.css';
 import { Toaster } from 'react-hot-toast';
-import ActiveSectionContextProvider from '@/common/stores/active-section';
-import { ThemeProvider } from '@/common/theme/theme-provider';
-import Header from '@/common/components/shared/header';
-import Footer from '@/common/components/shared/footer';
-import { ModeToggle } from '@/common/theme/mode-toggler';
 
 export const metadata: Metadata = {
-  title: 'Maksym Azimov | Portfolio',
+  title: 'Moses Benjamin | Portfolio',
   description:
-    'Check out modern and stylish porfolio of an experienced Web Developer Maksym Azimov! Built using TypeScript, Next.js 14, Framaer Motion and Tailwind CSS.',
+    'Experience Modern Web Developer. Built using TypeScript, Next.js 14, Framaer Motion and Tailwind CSS.',
 };
 
 const fontMontserrat = FontMontserrat({

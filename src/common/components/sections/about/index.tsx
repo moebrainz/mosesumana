@@ -52,9 +52,9 @@ export default function About() {
                   interaction.
                 </span>
                 <span>
-                  Seeking for Web Development opportunities where I can leverage
-                  my skills to create meaningful connections between products
-                  and users.
+                  Looking forward to bring your ideas into reality with my
+                  skills to create meaningful connections between products and
+                  users.
                 </span>
                 <p className="flex flex-col items-start sm:items-center lg:items-start">
                   <span>So if you are interested,</span>
@@ -65,7 +65,7 @@ export default function About() {
                     }}
                     className="w-52 lg:w-48 lg:mt-4"
                   >
-                    <span className="bg-[#ffcbb4] p-3 rounded-lg text-2xl font-bold uppercase dark:bg-[#ddbea9] lg:normal-case ">
+                    <span className="bg-[#ffcbb4] p-3 rounded-lg text-2xl mt-2 font-bold uppercase dark:bg-[#ddbea9] lg:normal-case ">
                       Contact me!
                     </span>
                   </Link>
@@ -73,17 +73,17 @@ export default function About() {
               </div>
             </div>
             <div className="absolute z-30 hidden lg:left-0 lg:top-1/4 lg:block">
-              <div className="relative h-72 w-72 lg:h-[380px] lg:w-[380px] xl:h-[470px] xl:w-[470px]">
-                <div className="absolute inset-0 z-20 rounded-full bg-gradient-to-b from-[#ffcbb4] via-[#e0afa0] to-[#e29578] transition-opacity group-hover:opacity-30" />
+              <div className="relative h-72 w-72 lg:h-[480px] lg:w-[480px] xl:h-[470px] xl:w-[470px]">
+                {/* <div className="absolute inset-0 z-20 rounded-full bg-gradient-to-b from-[#ffcbb4] via-[#e0afa0] to-[#e29578] transition-opacity group-hover:opacity-30" /> */}
                 <div className="absolute inset-0">
                   <Image
                     src={portfolioImg}
                     alt="portfolio image"
                     placeholder="blur"
-                    width={400}
-                    height={400}
+                    width={500}
+                    height={500}
                     style={{ objectFit: 'cover' }}
-                    className="z-10 rounded-full lg:h-[480px] lg:w-[480px] xl:h-[470px] xl:w-[470px]"
+                    className="z-10 rounded-full lg:h-[580px] lg:w-[580px] xl:h-[570px] xl:w-[570px]"
                   />
                 </div>
               </div>

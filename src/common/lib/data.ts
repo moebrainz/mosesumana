@@ -1,15 +1,16 @@
 import React from 'react';
 
-import accountingImg from '@/../public/images/accounting.jpg';
 import auditMasterImg from '@/../public/images/audit-master.png';
+import bloomieImg from '@/../public/images/bloomie.svg';
+import bricksImg from '@/../public/images/bricks-new.png';
 import campwithusImg from '@/../public/images/camp-with-us.png';
 import carcatalogImg from '@/../public/images/car-catalog.png';
 import filedriveImg from '@/../public/images/file-drive.png';
-import UtomImg from '@/../public/images/logo.svg';
 import portfolioImg from '@/../public/images/portfolio.png';
 import projectmanagementImg from '@/../public/images/project-management.png';
 import reactfoodImg from '@/../public/images/react-food.png';
 import surgeImg from '@/../public/images/surge.png';
+import UtomImg from '@/../public/images/utom.svg';
 import { BookIcon, BriefcaseBusinessIcon } from 'lucide-react';
 
 export const links = [
@@ -85,9 +86,32 @@ export const projectsData = [
   {
     title: 'Utom Ai',
     description: `Utom provides an on-demand AI workforce that helps startups automate busywork, boost efficiency, and scale faster—without increasing headcount or compromising agility.`,
-    tags: ['React', 'TypeScript', 'Next.js', 'Tailwind', 'Zod', 'Gasp'],
+    tags: [
+      'React',
+      'TypeScript',
+      'Next.js',
+      'Python',
+      'Tailwind',
+      'Zod',
+      'Gasp',
+    ],
     imageUrl: UtomImg,
     link: 'https://www.utom.dev/',
+  },
+  {
+    title: 'Bloomie',
+    description: `Adaptive learning for your child. Experience learning that evolves with your child, adapting to their pace and progress.`,
+    tags: [
+      'Next.js',
+      'TypeScript',
+      'Python',
+      'NextAuth',
+      'Tailwind',
+      'Zod',
+      'Shadcn',
+    ],
+    imageUrl: bloomieImg,
+    link: 'https://www.bloomie.com/',
   },
   {
     title: 'Audit Master',
@@ -97,12 +121,12 @@ export const projectsData = [
     link: 'https://auditmaster.ai/',
   },
   {
-    title: 'Demo Automation of accounting documents processing',
+    title: 'Bricks Development Technology',
     description:
-      'Upload any receipt or invoice (even a crumpled one from your pocket) and watch our AI accurately extract its data.',
-    tags: ['TypeScript', 'React', 'Docker', 'Next.js', 'GraphQL', 'Tailwind'],
-    imageUrl: accountingImg,
-    link: 'https://demo.grantonai.cz/',
+      'Empowering Your Vision with Scalable, Intelligent Software Solutions. ',
+    tags: ['TypeScript', 'Nextjs', 'Next.js', 'Tailwind'],
+    imageUrl: bricksImg,
+    link: 'https://brickdev.vercel.app/',
   },
   {
     title: 'FileDrive',
