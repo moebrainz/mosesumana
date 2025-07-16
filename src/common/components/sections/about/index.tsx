@@ -85,7 +85,7 @@ export default function About() {
                     width={400}
                     height={500}
                     style={{ objectFit: 'cover' }}
-                    className="z-10 rounded-full lg:h-[480px] lg:w-[380px] xl:h-[470px] xl:w-[370px]"
+                    className="z-10 rounded-full lg:h-[480px] -mt-7 lg:w-[380px] xl:h-[470px] xl:w-[370px]"
                   />
                 </div>
               </div>
