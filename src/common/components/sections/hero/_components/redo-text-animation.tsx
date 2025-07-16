@@ -11,16 +11,27 @@ export default function RedoTextAnimation({ delay }: IRedoTextAnimationProps) {
   const textIndex = useMotionValue(0);
 
   const texts = [
-    'i’m a Frontend developer skilled in solving complex UI challenges',
-    'Expert in turning designs into pixel-perfect, interactive experiences.',
-    'Focused on clean, minimal, and user-friendly design principles.',
+    'I’m a Frontend developer ...',
+    'I turn designs into pixel-perfect, interactive experiences.',
+    'Focused on clean, and user-friendly design principles.',
     'Strong debugging skills with a problem-solving mindset',
-    'Responsive design expert—fluent across all screen sizes',
-    'Experienced in refactoring and improving existing codebases',
-    'Teamwork makes the dream work, let’s build something amazing together!',
+    'Responsive design across all screen sizes',
+    'I refactoring and improving existing codebases',
+    'I love Teamwork, let’s build something amazing together!',
     'Always learning—keeping up with modern frontend trends',
     'Writes clean, elegant, and maintainable code',
   ];
+  // const texts = [
+  //   'I’m a Frontend developer skilled in solving complex UI challenges',
+  //   'Expert in turning designs into pixel-perfect, interactive experiences.',
+  //   'Focused on clean, minimal, and user-friendly design principles.',
+  //   'Strong debugging skills with a problem-solving mindset',
+  //   'Responsive design expert—fluent across all screen sizes',
+  //   'Experienced in refactoring and improving existing codebases',
+  //   'Teamwork makes the dream work, let’s build something amazing together!',
+  //   'Always learning—keeping up with modern frontend trends',
+  //   'Writes clean, elegant, and maintainable code',
+  // ];
 
   const baseText = useTransform(textIndex, (latest) => texts[latest] || '');
   const count = useMotionValue(0);
@@ -56,7 +67,7 @@ export default function RedoTextAnimation({ delay }: IRedoTextAnimationProps) {
   }, []);
 
   return (
-    <motion.span className="h-32 max-w-96 px-1 py-3 bg-lightBeige text-[1.2rem] font-bold dark:bg-darkBeige md:text-[1.5rem] lg:text-[1.7rem]">
+    <motion.span className="h-32 max-w-96 px-1 lg:px-3 py-3 lg:rounded-full bg-lightBeige text-[1.2rem] font-bold dark:bg-darkBeige md:text-[1.5rem] lg:text-[1.7rem]">
       {displayText}
     </motion.span>
   );

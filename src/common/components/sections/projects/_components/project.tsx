@@ -1,10 +1,10 @@
 'use client';
 
-import { useRef } from 'react';
 import { projectsData } from '@/common/lib/data';
-import Image from 'next/image';
 import { motion, useScroll, useTransform } from 'framer-motion';
+import Image from 'next/image';
 import Link from 'next/link';
+import { useRef } from 'react';
 
 type ProjectProps = (typeof projectsData)[number];
 
@@ -44,7 +44,7 @@ export default function Project({
             <ul className="mt-4 flex flex-wrap gap-2 sm:mt-auto">
               {tags.map((tag, index) => (
                 <li
-                  className="rounded-full bg-[#ffcbb4] px-3 py-1 text-[0.7rem] uppercase tracking-wider dark:bg-[#ddbea9] dark:text-black"
+                  className="rounded-full bg-[#ccf4fb] px-3 py-1 text-[0.7rem] uppercase tracking-wider dark:bg-[#00B8D9] dark:text-black"
                   key={index}
                 >
                   {tag}

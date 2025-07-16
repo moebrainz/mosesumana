@@ -42,35 +42,27 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: 'Trustsoft s.r.o.',
-    location: 'Prague, Czechia',
+    title: 'DA INC LIMITED ',
+    location: 'Upper Walthamstow Road, London E17 3QQ.',
     description:
-      'Front-end Developer. Providing services in the field of information technology services, including administration servers, cloud services, information systems and software development.',
+      'Front-end Developer. I build responsive web interfaces using React, Next.js, TypeScript, and TailwindCSS. I integrate APIs, develop reusable components, and collaborate with teams to deliver features efficiently. My work has helped reduce bugs, cut costs by 20%, and improve development speed by 25%.',
     icon: React.createElement(BriefcaseBusinessIcon),
-    date: 'Oct 2024 - Present',
+    date: 'Jan 2025 - Present',
   },
   {
-    title: 'Granton s.r.o.',
-    location: 'Prague, Czechia',
+    title: 'Peddle Technologies',
+    location: 'Lagos, Nigeria',
     description:
-      'Front-end Developer. Delivering flawless UI/UX, Frontend Workflow, Architecture & App Development.',
+      'Fullstack Developer. Delivering flawless UI/UX, Frontend Workflow, Architecture & App Development, handling DevOps on Digital Ocean.',
     icon: React.createElement(BriefcaseBusinessIcon),
-    date: 'Oct 2024 - Present',
+    date: 'August 2022 - July 2023',
   },
   {
-    title: 'WhirrCrew s.r.o.',
-    location: 'Prague, Czechia',
-    description:
-      'Front-end Developer. Responsible for implemntation of accessible and interactive interface. Working on various projects with AI integration.',
-    icon: React.createElement(BriefcaseBusinessIcon),
-    date: 'Jun 2024 - Present',
-  },
-  {
-    title: 'NAU',
-    location: 'Kyiv, Ukraine',
-    description: `Bachelor's degree in Cybersecurity. The faculty of Cyber Security and Software Engineering.`,
+    title: ' Idorak Nigeria Limited',
+    location: 'Abuja, Nigeria',
+    description: `Front-end Developer. Responsible for implemntation of accessible and interactive interface. Working on various projects with AI integration..`,
     icon: React.createElement(BookIcon),
-    date: 'Sep 2022 - Jun 2024',
+    date: 'May 2021 - Jun 2022',
   },
 ] as const;
 
@@ -157,7 +149,7 @@ export const projectsData = [
       'Tailwind',
     ],
     imageUrl: portfolioImg,
-    link: 'https://github.com/bbyc4kes/portfolio',
+    link: 'https://github.com/moebrainz/mosesumana',
   },
 
   {
@@ -198,7 +190,7 @@ export const skillsData = [
   ['Tanstack Query', '/svgs/react-query-seeklogo.svg'],
   ['Tanstack Table', '/svgs/db-table-svgrepo-com.svg'],
   ['Cloudinary', '/svgs/cloudinary.svg'],
-  ['Golang', '/svgs/golang.svg'],
+  // ['Golang', '/svgs/golang.svg'],
   ['Docker', '/svgs/Docker.svg'],
   ['Clerk', '/svgs/clerk.svg'],
   ['Axios', '/svgs/axios.svg'],

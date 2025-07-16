@@ -46,15 +46,17 @@ export default function About() {
             <div className="text-md relative z-40 flex flex-col gap-3 font-semibold tracking-wide text-primary lg:absolute lg:right-0 lg:top-[27%] lg:block lg:max-w-[580px] lg:text-start lg:text-lg xl:top-1/3 xl:h-[442px] xl:max-w-[650px]">
               <div className="flex h-full flex-col justify-center gap-6">
                 <span>
-                  I&apos;m Front-end developer with expertise in TypeScript,
-                  React & Next.js. Proven ability to deliver user-centered web
-                  applications with a focus on intuitive experiences and user
-                  interaction.
+                  I&apos;m a Front-end developer with over three years of
+                  professional experience in Web Development. I specialize on
+                  TypeScript, React & Next.js etc,. Proven ability to deliver
+                  user-centered web applications with a focus on intuitive
+                  experiences and user interaction.
                 </span>
                 <span>
                   Looking forward to bring your ideas into reality with my
                   skills to create meaningful connections between products and
-                  users.
+                  users. Checkout my projects to get i collaborated and
+                  personally developed.
                 </span>
                 <p className="flex flex-col items-start sm:items-center lg:items-start">
                   <span>So if you are interested,</span>
@@ -63,9 +65,9 @@ export default function About() {
                     onClick={(e) => {
                       smoothScrollTo({ e, id: 'contact' });
                     }}
-                    className="w-52 lg:w-48 lg:mt-4"
+                    className="w-52 lg:w-48 mt-6 lg:mt-4"
                   >
-                    <span className="bg-[#ffcbb4] p-3 rounded-lg text-2xl mt-2 font-bold uppercase dark:bg-[#ddbea9] lg:normal-case ">
+                    <span className="bg-[#00B8D9] p-3 rounded-lg text-2xl mt-2 font-bold uppercase dark:bg-[#00B8D9] lg:normal-case ">
                       Contact me!
                     </span>
                   </Link>
